@@ -7,7 +7,7 @@ namespace demo1.Models
 {
     public class HomeViewModel
     {
-        public string ShortMessage { get; set; }
+     
         public string Message { get; set; }
     }
 }
