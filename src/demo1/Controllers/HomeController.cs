@@ -12,7 +12,9 @@ namespace demo1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var homeModel = new HomeViewModel();
+            homeModel.Message = "Welcome to InApp Tech Day 2018";
+            return View(homeModel);
         }
 
         public IActionResult About()
